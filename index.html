@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motsiri Masiakwala — Software Engineer &amp; Developer</title>
+  <meta name="description" content="Portfolio of Motsiri Masiakwala, a Software Engineering graduate and freelance developer based in Johannesburg, South Africa.">
+
+  <!-- Editorial Typography: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Three.js CDN for Monochrome 3D Background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Prominent 3D Canvas Layer -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header__inner">
+      <a href="#top" class="brand">
+        <span class="brand__mark">MM</span>
+        <span class="brand__name">Motsiri Masiakwala</span>
+      </a>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#work">Selected Work</a>
+        <a href="#services">Capabilities</a>
+        <a href="media/Motsiri-Masiakwala-CV.pdf" download class="btn btn--outline">Download CV</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <svg class="menu-toggle__icon menu-toggle__icon--open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="menu-toggle__icon menu-toggle__icon--close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO SECTION (WHITE BACKGROUND) -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        
+        <div class="hero__header-strip">
+          <span class="issue-tag">VOL. 01 — EDITION 2026</span>
+          <span class="issue-tag">JOHANNESBURG, SA</span>
+          <span class="issue-tag">SOFTWARE &amp; SYSTEMS</span>
+        </div>
+
+        <h1 class="hero__title">
+          Engineering <em>refined</em> digital software with code &amp; precision.
+        </h1>
+
+        <div class="hero__grid">
+          
+          <div class="hero__media-container">
+            <img class="hero__photo" src="media/profile-picture.jpeg" alt="Portrait of Motsiri Masiakwala">
+            <p class="hero__media-caption">Motsiri Masiakwala — Software Engineering Graduate &amp; Developer</p>
+          </div>
+
+          <div class="hero__content">
+            <p class="hero__summary drop-cap">
+              Software Engineering graduate specializing in robust full-stack web and native mobile applications. Translating complex business logic into structured technical solutions, debugging critical systems, using systems level thinking to deliver software designed for performance.
+            </p>
+
+            <div class="hero__stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">PHP</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">SQL</span>
+              <span class="stack-tag">Android / Java</span>
+            </div>
+
+            <div class="hero__cta-group">
+              <a href="#contact" class="btn btn--primary-dark">
+                Initiate Project
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#work" class="btn btn--secondary-dark">Explore Work</a>
+              <a href="media/Motsiri-Masiakwala-CV.pdf" download class="btn btn--secondary-dark">
+                Download CV
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M6 11l6 6 6-6M5 21h14"/></svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- METRICS SECTION (BLACK BACKGROUND) -->
+    <section class="section section--black">
+      <div class="section__inner">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <p class="stat-card__value">06+</p>
+            <p class="stat-card__label">Deployed Applications &amp; Client Work</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-card__value">04</p>
+            <p class="stat-card__label">Core Engineering Languages</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-card__value">02</p>
+            <p class="stat-card__label">Target Platforms (Web &amp; Android Native)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK SECTION (WHITE BACKGROUND) -->
+    <section class="section section--white" id="work">
+      <div class="section__inner">
+        
+        <div class="section-header">
+          <div>
+            <p class="section-eyebrow">Case Studies</p>
+            <h2 class="section-title">Selected Work</h2>
+          </div>
+          <p class="section-desc">A curated index of client implementations, native mobile applications, and custom web builds executed with high visual contrast and solid code architecture.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__img" src="media/Clinic-booking-app.png" alt="Clinic Appointment Booking System screenshot" loading="lazy">
+            </div>
+            <div class="project-card__info">
+              <p class="project-card__meta">Mobile · Android / Java / Firebase</p>
+              <h3 class="project-card__title">Clinic Appointment Booking System</h3>
+              <p class="project-card__desc">Complete payment module featuring multi-tier insurance fee calculations, real-time Firestore database synchronization, and conflict-preventing scheduling logic.</p>
+              <div class="project-card__actions">
+                <!-- TODO: replace "#" with the live website URL -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary-dark">See Work ↗</a>
+                <!-- TODO: replace with this project's GitHub repository URL -->
+                <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--secondary-dark">Get Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__img" src="media/kingdom-midwives.jpg" alt="The Kingdom Midwives website" loading="lazy">
+            </div>
+            <div class="project-card__info">
+              <p class="project-card__meta">Web Platform · Non-Profit Organization</p>
+              <h3 class="project-card__title">The Kingdom Midwives Platform</h3>
+              <p class="project-card__desc">Multi-page website built for a faith-based healthcare charity. Incorporates dynamic event galleries, custom lightbox modal viewers, and clean layout design.</p>
+              <div class="project-card__actions">
+                <a href="https://motsiri022.github.io/kingdom-midwive/" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary-dark">See Work ↗</a>
+                <!-- TODO: replace with this project's GitHub repository URL -->
+                <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--secondary-dark">Get Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__img" src="media/aroma-studio.jpg" alt="Aroma Studio luxury perfume e-commerce website" loading="lazy">
+            </div>
+            <div class="project-card__info">
+              <p class="project-card__meta">E-Commerce · Luxury Fragrance</p>
+              <h3 class="project-card__title">Aroma Studio Perfume Store</h3>
+              <p class="project-card__desc">E-commerce website for a luxury perfume brand, presenting a refined fragrance collection with an elegant, premium shopping experience.</p>
+              <div class="project-card__actions">
+                <!-- TODO: replace "#" with the live website URL -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary-dark">See Work ↗</a>
+                <!-- TODO: replace with this project's GitHub repository URL -->
+                <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--secondary-dark">Get Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__img" src="media/Emma%26calv-picture.jpg" alt="Emma &amp; Calv catering website" loading="lazy">
+            </div>
+            <div class="project-card__info">
+              <p class="project-card__meta">Editorial Web · Hospitality</p>
+              <h3 class="project-card__title">Emma &amp; Calv Culinary Site</h3>
+              <p class="project-card__desc">High-contrast magazine layout engineered for an artisan catering business to streamline client inquiries and showcase menus.</p>
+              <div class="project-card__actions">
+                <a href="https://motsiri022.github.io/emma-calv-website/" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary-dark">See Work ↗</a>
+                <!-- TODO: replace with this project's GitHub repository URL -->
+                <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--secondary-dark">Get Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__img" src="media/Tau-automations.jpg" alt="Tau Automations glass and aluminium website" loading="lazy">
+            </div>
+            <div class="project-card__info">
+              <p class="project-card__meta">Web · Glass &amp; Aluminium Services</p>
+              <h3 class="project-card__title">Tau Automations Website</h3>
+              <p class="project-card__desc">Business website for a glass fitting and aluminium door installation company, showcasing its services and making it easy for clients to get in touch.</p>
+              <div class="project-card__actions">
+                <a href="https://motsiri022.github.io/Tau-Automations-website/" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary-dark">See Work ↗</a>
+                <!-- TODO: replace with this project's GitHub repository URL -->
+                <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--secondary-dark">Get Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPABILITIES SECTION (BLACK BACKGROUND) -->
+    <section class="section section--black" id="services">
+      <div class="section__inner">
+        <div class="section-header">
+          <div>
+            <p class="section-eyebrow">Technical Index</p>
+            <h2 class="section-title">Capabilities</h2>
+          </div>
+          <p class="section-desc">Writing code is only part of the job. I also bring the engineering practices that keep software reliable, scalable and easy to ship.</p>
+        </div>
+
+        <div class="services-list">
+          
+          <div class="service-item">
+            <div class="service-item__number">01</div>
+            <div>
+              <h3 class="service-item__title">Full-Stack Web Engineering</h3>
+              <p class="service-item__desc">Constructing responsive front-end interfaces backed by structured server architectures in Python, PHP, or Node. SQL database management and RESTful API endpoints.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">PHP</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">TypeScript</span>
+              <span class="stack-tag">SQL</span>
+              <span class="stack-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item__number">02</div>
+            <div>
+              <h3 class="service-item__title">Android Native Development</h3>
+              <p class="service-item__desc">Building native mobile applications in Java with real-time Firebase backends, payment module logic, and responsive screen flow layouts.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Android (Java)</span>
+              <span class="stack-tag">Firebase</span>
+              <span class="stack-tag">Firestore</span>
+              <span class="stack-tag">Payment Logic</span>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item__number">03</div>
+            <div>
+              <h3 class="service-item__title">Code Refactoring &amp; Diagnostics</h3>
+              <p class="service-item__desc">Debugging active codebases, optimizing database query speed, establishing automated workflows, and enhancing client accessibility metrics.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Debugging</span>
+              <span class="stack-tag">QA Testing</span>
+              <span class="stack-tag">AI-Assisted Workflow</span>
+            </div>
+          </div>
+
+
+          <div class="service-item">
+            <div class="service-item__number">04</div>
+            <div>
+              <h3 class="service-item__title">Systems Design &amp; Architecture</h3>
+              <p class="service-item__desc">Thinking beyond individual features: breaking problems into components, mapping data flow, and weighing trade-offs between simplicity, performance and maintainability. Designing clean database schemas, clear API contracts and modular code that can grow without being rewritten.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">System Design</span>
+              <span class="stack-tag">Data Modeling</span>
+              <span class="stack-tag">API Design</span>
+              <span class="stack-tag">Modular Architecture</span>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item__number">05</div>
+            <div>
+              <h3 class="service-item__title">Version Control &amp; CI/CD</h3>
+              <p class="service-item__desc">Working in structured Git workflows with feature branches, pull requests and meaningful commits. Automating build, test and deployment steps so releases are repeatable, low-risk and fast.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Git</span>
+              <span class="stack-tag">GitHub</span>
+              <span class="stack-tag">GitHub Actions</span>
+              <span class="stack-tag">CI/CD Pipelines</span>
+              <span class="stack-tag">Automated Deployment</span>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item__number">06</div>
+            <div>
+              <h3 class="service-item__title">Testing &amp; Quality Engineering</h3>
+              <p class="service-item__desc">Treating quality as part of the build, not an afterthought: writing testable code, covering critical logic with unit and integration tests, reviewing code, and tracing bugs to their root cause.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Unit Testing</span>
+              <span class="stack-tag">Integration Testing</span>
+              <span class="stack-tag">Code Review</span>
+              <span class="stack-tag">Root-Cause Debugging</span>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item__number">07</div>
+            <div>
+              <h3 class="service-item__title">Agile Delivery &amp; Collaboration</h3>
+              <p class="service-item__desc">Turning vague client requirements into scoped, deliverable work. Communicating progress clearly, documenting decisions, and owning a project from specification through to live production.</p>
+            </div>
+            <div class="service-item__tags">
+              <span class="stack-tag">Agile / Scrum</span>
+              <span class="stack-tag">Requirements Analysis</span>
+              <span class="stack-tag">Technical Documentation</span>
+              <span class="stack-tag">Remote Collaboration</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (WHITE BACKGROUND) -->
+    <section class="section section--white" id="about">
+      <div class="section__inner">
+        <div class="about-grid">
+          <div>
+            <p class="section-eyebrow">Background &amp; Discipline</p>
+            <h2 class="section-title">Clean code built on software engineering fundamentals.</h2>
+          </div>
+          <div>
+            <p class="about-text drop-cap">
+              I am a Software Engineering graduate based in Johannesburg, South Africa. My focus is centered on taking software projects from initial specification documents through to stable, live production code.
+            </p>
+            <p class="about-text">
+              Working across web development and Android native applications, I emphasize structured code architecture, responsive UI design, and reliable performance.
+            </p>
+            
+            <div class="about-cta">
+              <a href="mailto:motsirimasiakwala191@gmail.com" class="btn btn--primary-dark">
+                Direct Email
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer" class="btn btn--secondary-dark">
+                GitHub Profile ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER (BLACK BACKGROUND) -->
+    <footer class="footer" id="contact">
+      <div class="section__inner">
+        <div class="footer__main">
+          <div>
+            <p class="section-eyebrow">Inquiries</p>
+            <h2 class="footer__title">Have a project?<br>Let's collaborate.</h2>
+          </div>
+          <div>
+            <a href="mailto:motsirimasiakwala191@gmail.com" class="footer__email">
+              motsirimasiakwala191@gmail.com
+            </a>
+            <p class="footer__location">Johannesburg, South Africa — Open to Remote Work Worldwide</p>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© 2026 Motsiri Masiakwala. All rights reserved.</p>
+          <div class="footer__socials">
+            <a href="https://github.com/Motsiri022" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:motsirimasiakwala191@gmail.com">Email</a>
+            <a href="#top">Back to top ↑</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Site Script -->
+  <script src="script.js?v=3"></script>
+</body>
+</html>
